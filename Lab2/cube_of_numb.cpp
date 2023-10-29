@@ -5,6 +5,6 @@ int main(){
 	printf("Enter a number:- ");
 	scanf("%f",&a);
 	cube_=a*a*a;
-	printf("The square root the given number is:- %f",cube_);
+	printf("The cube of the given number is:- %f",cube_);
 	return 0;
 }
