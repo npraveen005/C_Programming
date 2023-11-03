@@ -1,6 +1,7 @@
 #include <stdio.h>
 int main(){
-	float sal,da,hra,fin,t;
+	float sal,da,hra,fin;
+	int t;
 	printf("Enter your basic salary:- ");
 	scanf("%f",&sal);
 	printf("Enter your city tier:- ");
