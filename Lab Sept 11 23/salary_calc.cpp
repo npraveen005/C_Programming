@@ -6,13 +6,13 @@ int main(){
 	printf("Enter your city tier:- ");
 	scanf("%d",&t);
 	hra=sal*0.25;
-	if (t=1){
+	if (t==1){
 		da = sal*0.25;
 	}
-	else if (t=2){
+	else if (t==2){
 		da=sal*0.2;
 	}
-	else if(t=3){
+	else if(t==3){
 		da=sal*0.15;
 	}
 	else{
