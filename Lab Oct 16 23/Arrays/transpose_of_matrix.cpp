@@ -13,7 +13,7 @@ int main(){
 	for (int j=0;j<r;j++)
 	{
 		b[i][j] = a[j][i];
-	}
+	}printf("\n");
 	for (int i=0;i<r;i++){
 	for (int j=0;j<r;j++){
 		printf("%d ",b[i][j]);
